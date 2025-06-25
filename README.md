@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+## 🛍 React Product List Filter
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A beginner-friendly React project that displays a list of products with a real-time search filter. Built using functional components and hooks, this project helped strengthen understanding of component design, useState, event handling, and conditional rendering in React.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📌 Project Overview
 
-### `npm start`
+This project demonstrates how to build a responsive and interactive product listing using React. Users can:
+- View a list of 15 products (hardcoded for simplicity)
+- Filter the list by typing the product name into a search input
+- View product name, description, and price displayed in a clean card layout
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The filtering logic updates live as the user types and only shows matching products by name.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
+##  🚀 How to Run the Project
 
-### `npm test`
+### 1. Clone the Repository
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    git clone https://github.com/your-username/react-product-filter.git
+    cd react-product-filter
 
-### `npm run build`
+### 2. Install Dependencies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 3. Start the Development Server
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    npm start
 
-### `npm run eject`
+Your app will run locally at:
+http://localhost:3000
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Make sure Node.js and npm are installed on your system.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🛠 Technologies Used
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- React (Functional Components & Hooks)
 
-## Learn More
+- JavaScript (ES6+)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- HTML & CSS (for layout and styling)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- VS Code (Editor)
 
-### Code Splitting
+---
+## 💡 What I Would Improve With More Time
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Given more time and experience, here’s what I would improve or add:
 
-### Analyzing the Bundle Size
+🔄 Fetch products from a public API like Fake Store API
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+🖼 Add images for each product to enhance UI
 
-### Making a Progressive Web App
+📊 Sort by price or name
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+🎯 Add category filters (e.g., accessories, devices)
 
-### Advanced Configuration
+🌙 Implement dark/light mode toggle
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+🔍 Improve search to highlight matched text
 
-### Deployment
+🧪 Add basic unit testing using Jest/React Testing Library
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
