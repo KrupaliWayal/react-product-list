@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial;
+}
+
+input {
+  padding: 10px;
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 220px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  background-color: #15f3ff;
+}
+
+body {
+  background-color: #000;
+}
